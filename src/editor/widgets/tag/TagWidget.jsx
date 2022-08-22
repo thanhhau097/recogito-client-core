@@ -22,7 +22,6 @@ const TagWidget = props => {
 
   // All except draft tag
   const tags = all.filter(b => b != draftTag);
-  const tags = all.filter(b => b != draftTag);
   const isDropdown = props.dropdown && props.vocabulary ? true : false;
   if (isDropdown){
     var mappedTags = [];
